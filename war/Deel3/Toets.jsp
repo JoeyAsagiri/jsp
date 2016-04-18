@@ -19,7 +19,7 @@
 		int max = 350501;
 		
 		if(request.getParameter("prijsmin") != null) {
-			max = Integer.parseInt(request.getParameter("prijsmin"));
+			min = Integer.parseInt(request.getParameter("prijsmin"));
 		}
 		
 		if(request.getParameter("prijsmax") != null) {
